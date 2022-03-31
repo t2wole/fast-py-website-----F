@@ -265,6 +265,16 @@ input[type="email"] {
 
 /* FOOTER */
 .footer {
-  background: green;
-  clear: both;
+  background: #0c4b33;
+  padding: 10px 0 30px;
+}
+.footer a {
+  color: inherit;
+}
+.copyright {
+  font-size: 1.2rem;
+  color: #2b8c67;
+}
+.copyright a {
+  text-decoration: underline;
 }
