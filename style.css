@@ -1,0 +1,27 @@
+body {
+    font-family: 'Jua', sans-serif;
+}
+
+.header {
+    background-color: aqua;
+}
+
+.hero-section {
+    background-color: skyblue;
+}
+
+.main-content {
+    float: left;
+    width: 70%;
+    background: pink;
+}
+
+.side-content {
+    float: left;
+    width: 30%;
+    background: yellow;
+}
+
+.footer {
+    background: green;
+}
