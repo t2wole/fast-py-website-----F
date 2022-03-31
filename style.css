@@ -11,11 +11,19 @@ body {
     font-family: 'Jua', sans-serif;
     width: 1060px;
     font-size: 1.8rem;
+    line-height: 1.6;
 }
 
+/* 밑줄 없애기 */
+a {
+    text-decoration: none;
+}
+
+/*HEADER*/
 .header {
     background-color: aqua;
     height: 72px;
+    padding: 15px 0 4px;
 }
 
 .container {
@@ -28,6 +36,7 @@ body {
 
 .logo {
     margin: 0;
+    padding-left: inherit;
     position: absolute;
     top: 0;
     left: 0;
@@ -37,14 +46,29 @@ body {
     text-align: right;
 }
 
+/* nav 단어들 사이의 여백 없애기 */
 .list {
     margin: 0;
+    font-size: 0;
 }
 
 .list-item {
+    font-weight: 700;
     display: inline-block;
+    font-size: 1.3rem;
+    text-transform: uppercase; /*대문자로 변경*/
 }
 
+.list-item > a {
+    color: white;
+    display: block;
+    padding: 10px;
+}
+
+.list-item > a:hover{
+    color: whitesmoke;
+}
+/* MAIN */
 .hero-section {
     background-color: skyblue;
 }
@@ -61,6 +85,7 @@ body {
     background: yellow;
 }
 
+/*FOOTER*/
 .footer {
     background: green;
 }
